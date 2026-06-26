@@ -27,7 +27,7 @@ customer_service_calls = st.number_input(
 
     "Customer Service Calls", 
 
-    min_value=0 
+    min_value=0, 
 
     value=4 
 
@@ -59,7 +59,7 @@ total_eve_min = st.number_input(
 
     "Total Evening Minutes", 
 
-    min_value=0 
+    min_value=0, 
 
     value=210 
 
@@ -71,7 +71,7 @@ total_eve_chg = st.number_input(
 
     "Total Evening Charge", 
 
-    min_value=0 
+    min_value=0, 
 
     value=20 
 
