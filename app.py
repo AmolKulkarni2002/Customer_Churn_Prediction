@@ -113,7 +113,7 @@ st.dataframe(input_data)
 
 if st.button("Predict Churn"): 
 
-  churn_pb = model.predict(input_data)[0][1] 
+  churn_pb = model.predict_proba(input_data)[0][1] 
 
  
 
